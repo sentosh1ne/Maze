@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<RecordsSaver xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Records>
+    <Record>
+      <PlayerName>Default</PlayerName>
+      <CoinCount>5</CoinCount>
+      <TimeElapsed>28.7622852</TimeElapsed>
+      <Date>2016-12-06T11:47:48.9466457+02:00</Date>
+      <EndReason>ESC</EndReason>
+    </Record>
+    <Record>
+      <PlayerName>Default</PlayerName>
+      <CoinCount>0</CoinCount>
+      <TimeElapsed>0.938381732</TimeElapsed>
+      <Date>2016-12-06T11:56:46.6728957+02:00</Date>
+      <EndReason>ESC</EndReason>
+    </Record>
+    <Record>
+      <PlayerName>Default</PlayerName>
+      <CoinCount>0</CoinCount>
+      <TimeElapsed>4.007811</TimeElapsed>
+      <Date>2016-12-06T12:26:24.7828206+02:00</Date>
+      <EndReason>Zombie</EndReason>
+    </Record>
+    <Record>
+      <PlayerName>Hello,Plarium ;)</PlayerName>
+      <CoinCount>5</CoinCount>
+      <TimeElapsed>31.1571331</TimeElapsed>
+      <Date>2016-12-06T14:14:53.6151728+02:00</Date>
+      <EndReason>Zombie</EndReason>
+    </Record>
+  </Records>
+</RecordsSaver>
