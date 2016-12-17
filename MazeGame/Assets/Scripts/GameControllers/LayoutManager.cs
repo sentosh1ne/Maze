@@ -37,7 +37,6 @@ public class LayoutManager : MonoBehaviour
     public void SetupScene()
     {
         SetupGrid();
-       
         PositioningUtil.InitializePositions(positions, columns, rows);
 
         Instantiate(ground, new Vector3(columns - 1, rows - 1, 0f), Quaternion.identity);
@@ -84,6 +83,7 @@ public class LayoutManager : MonoBehaviour
         {
             coinSpawn = PositioningUtil.GeneratePosition(positions);
         }
+        
         GameObject spawned = Instantiate(coin, coinSpawn, Quaternion.identity) as GameObject;
         spawned.transform.SetParent(layoutHolder);
         coinsCount++;
