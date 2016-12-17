@@ -25,7 +25,7 @@ public class LayoutManager : MonoBehaviour
     //Corrdinates in the grid
     [HideInInspector]
     public static List<Vector3> positions = new List<Vector3>();
-    public float coinSpawnRate = 5f;
+    public float coinSpawnRate = 4f;
     [HideInInspector]
     public static List<Vector3> wallsPositions = new List<Vector3>();
 
@@ -84,7 +84,6 @@ public class LayoutManager : MonoBehaviour
         {
             coinSpawn = PositioningUtil.GeneratePosition(positions);
         }
-
         GameObject spawned = Instantiate(coin, coinSpawn, Quaternion.identity) as GameObject;
         spawned.transform.SetParent(layoutHolder);
         coinsCount++;
