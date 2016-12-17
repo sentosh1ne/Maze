@@ -42,8 +42,11 @@ public class LayoutManager : MonoBehaviour
         Instantiate(ground, new Vector3(columns - 1, rows - 1, 0f), Quaternion.identity);
         wallsPositions = Spawning.SpawnTilesRandomly(wall, minWalls, maxWalls,positions);
 
-        Spawning.SpawnInUnoccupied(player, wallsPositions,positions);
-        Spawning.SpawnInUnoccupied(zombie, wallsPositions,positions);
+        GameObject p = Spawning.SpawnInUnoccupied(player, wallsPositions,positions);
+        GameObject z = Spawning.SpawnInUnoccupied(zombie, wallsPositions,positions);
+
+        p.transform.SetParent(layoutHolder);
+        z..transform.SetParent(layoutHolder);
     }
 
     //Instantiates grid with layout prefabs
