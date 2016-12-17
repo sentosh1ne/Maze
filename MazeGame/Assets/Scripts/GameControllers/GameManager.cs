@@ -37,6 +37,4 @@ public class GameManager : MonoBehaviour
     {
         Application.LoadLevel("GameMenu");
     }
-
-
 }
