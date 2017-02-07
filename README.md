@@ -1,2 +1,2 @@
-# maze
-Simple maze game written in UNITY3D
+#The Maze
+Maze game written in UNITY3D
